@@ -1,10 +1,10 @@
 Multi-Feature CNN-GRU Framework for Speech Emotion Recognition
 
-📌 Overview
+Overview
 
 This project focuses on building a robust and accurate Speech Emotion Recognition (SER) system capable of identifying human emotions from speech signals using a hybrid CNN-GRU architecture. The system leverages multiple audio features — MFCCs, Spectrograms, and Cochleagrams — to capture complementary aspects of emotional speech, resulting in higher accuracy and noise robustness.
 
-🧠 Objective
+Objective
 
 Preprocess and standardize speech signals for consistent analysis.
 
@@ -16,7 +16,7 @@ Evaluate performance using benchmark emotion datasets.
 
 Develop a lightweight, scalable system suitable for real-time applications such as healthcare, virtual assistants, and emotion-aware learning environments.
 
-⚙️ System Architecture
+System Architecture
 🔸 Block Diagram
 
 Speech Input → Preprocessing → Feature Extraction (MFCC, Spectrogram, Cochleagram) → Feature Fusion → CNN + GRU Model → Emotion Output
@@ -29,7 +29,7 @@ GRU: Models temporal dependencies for dynamic emotion transitions.
 
 Feature Fusion: Combines multiple representations for improved accuracy and generalization.
 
-💻 Software Requirements
+Software Requirements
 
 Programming Language: Python
 
@@ -47,7 +47,7 @@ Development Environment: Google Colab / Jupyter Notebook
 
 Version Control: GitHub
 
-📊 Dataset
+Dataset
 
 The model can be trained and validated on publicly available emotion datasets such as:
 
@@ -55,7 +55,7 @@ RAVDESS – Ryerson Audio-Visual Database of Emotional Speech and Song
 
 TESS, SAVEE, or EMO-DB (optional alternatives)
 
-🚀 Implementation Steps
+Implementation Steps
 
 Data Collection & Preprocessing
 
@@ -87,7 +87,7 @@ Deployment
 
 Deploy lightweight model for real-time inference on mobile/IoT devices.
 
-🧩 Justification for Tools
+Justification for Tools
 
 Python: Simplicity and vast ML ecosystem.
 
@@ -99,7 +99,7 @@ Google Colab: Enables fast experimentation with cloud GPUs.
 
 GitHub: Supports version control and collaborative tracking.
 
-🧪 Results & Conclusion
+Results & Conclusion
 
 The proposed system achieves enhanced emotion recognition accuracy through multi-feature fusion and hybrid deep learning.
 Compared to traditional single-feature CNN models, the CNN-GRU fusion improves robustness across speakers and noisy environments.
