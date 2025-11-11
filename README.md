@@ -1,4 +1,5 @@
-🎙️ Multi-Feature CNN-GRU Framework for Speech Emotion Recognition
+Multi-Feature CNN-GRU Framework for Speech Emotion Recognition
+
 📌 Overview
 
 This project focuses on building a robust and accurate Speech Emotion Recognition (SER) system capable of identifying human emotions from speech signals using a hybrid CNN-GRU architecture. The system leverages multiple audio features — MFCCs, Spectrograms, and Cochleagrams — to capture complementary aspects of emotional speech, resulting in higher accuracy and noise robustness.
